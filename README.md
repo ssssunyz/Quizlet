@@ -11,12 +11,12 @@ Quizlet is an application where the users can take quizzes from different catego
 5 Questions are randomly assigned to each quiz, and the user have to pass more than three 
 of them to pass. 
 
-Overall:
+### Overall:
   - each page is implemented with Authentication using OncePerRequestFilter
   - authorization: user, admin
   - a global navigator bar
 
-User Section:
+### User Section:
 - Login Page:
     - default page of the application
     - if not logged in, will be redirected to this page
@@ -41,7 +41,7 @@ User Section:
 - Contact Us:
   - users can send a message to the Admin
 
-Admin Section:
+### Admin Section:
 - can see an overview of all quiz results
   - quiz details are available after clicking on the specific quiz
   - shows the correct answers and user selected answers
